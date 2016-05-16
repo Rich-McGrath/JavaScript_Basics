@@ -19,5 +19,6 @@
 //htmlSnippet = "<h1> class=\"special"\>Important Headline</h1>;
 
 //Prompt Command
-var visitorName = prompt("What is your name?");
-console.log(visitorName);
+var visitor = prompt("What is your name?");
+var message = 'Hello ' + visitor;
+document.write(message);
