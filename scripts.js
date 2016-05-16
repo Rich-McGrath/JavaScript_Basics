@@ -19,9 +19,15 @@
 //htmlSnippet = "<h1> class=\"special"\>Important Headline</h1>;
 
 //Prompt Command
-var visitor = prompt("What is your name?");
-var message = 'Hello ' + visitor;
-message = message + " We are so glad that you game by to visit, ";
-message += visitor;
-message += ". Please come again when you want to learn some more.";
-document.write(message);
+//var visitor = prompt("What is your name?");
+//var message = 'Hello ' + visitor;
+//message = message + " We are so glad that you game by to visit, ";
+//message += visitor;
+//message += ". Please come again when you want to learn some more.";
+//document.write(message);
+
+//Working with Strings
+var passphrase = "Open Sesame";
+console.log(passphrase.length); //Prints Length
+console.log(passphrase.toLowerCase()); //Make it lower case but does not change Var
+console.log(passphrase); //Var not changes after toLowerCase Method.
