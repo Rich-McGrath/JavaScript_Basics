@@ -1,2 +1,3 @@
-var dieRoll = Math.floor(Math.random() * 6) + 1;
-alert('You rolled a ' + dieRoll);
+var userNumber = prompt('Please enter in a number? ');
+
+alert('Here is your random number: ' + Math.random() * (parseInt(userNumber) - 1) + 1);
