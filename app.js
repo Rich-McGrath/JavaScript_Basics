@@ -1,3 +1,9 @@
-var userNumber = prompt('Please enter in a number? ');
+//Collect a number from a user, then print out a random number from 1 to the numer the user selects
+var input1 = prompt("Please type a starting number");
+var bottomNumber = parseInt(input1);
+var input = prompt("Please type a number");
+var topNumber = parseInt(input);
 
-alert('Here is your random number: ' + Math.random() * (parseInt(userNumber) - 1) + 1);
+var randomNumber = Math.floor(Math.random() * (topNumber - bottomNumber + 1)) + bottomNumber;
+var message = "<p>" + randomNumber + " is a number between " + bottomNumber + " and " + topNumber + ".</p>";
+document.write(message);
