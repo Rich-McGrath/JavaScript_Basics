@@ -4,4 +4,4 @@ function getRandomNumber() {
 }
 alert( getRandomNumber() );
 console.log( getRandomNumber() );
-var direRoll = getRandomNumber();
+var dieRoll = getRandomNumber();
