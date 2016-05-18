@@ -3,7 +3,7 @@ function isEmailEmpty() {
   if (field.value === '' ){
     return true;
   }else {
-    return fales;
+    return false;
   }
 }
 
